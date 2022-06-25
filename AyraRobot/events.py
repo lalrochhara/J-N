@@ -8,8 +8,8 @@ from pathlib import Path
 from telethon import events
 
 from pymongo import MongoClient
-from FallenRobot import MONGO_DB_URI
-from FallenRobot import telethn
+from AyraRobot import MONGO_DB_URI
+from AyraRobot import telethn
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
@@ -184,8 +184,8 @@ def load_module(shortname):
         import importlib
         import FallenRobot.events
 
-        path = Path(f"FallenRobot/modules/{shortname}.py")
-        name = "FallenRobot.modules.{}".format(shortname)
+        path = Path(f"AyraRobot/modules/{shortname}.py")
+        name = "AyraRobot.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
@@ -194,8 +194,8 @@ def load_module(shortname):
         import importlib
         import FallenRobot.events
 
-        path = Path(f"FallenRobot/modules/{shortname}.py")
-        name = "FallenRobot.modules.{}".format(shortname)
+        path = Path(f"AyraRobot/modules/{shortname}.py")
+        name = "AyraRobot.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.register = register
@@ -203,11 +203,11 @@ def load_module(shortname):
         mod.tbot = telethn
         mod.logger = logging.getLogger(shortname)
         spec.loader.exec_module(mod)
-        sys.modules["FallenRobot.modules." + shortname] = mod
+        sys.modules["AyraRobot.modules." + shortname] = mod
         print("Successfully imported " + shortname)
 
 
-path = "FallenRobot/modules/*.py"
+path = "AyraRobot/modules/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
