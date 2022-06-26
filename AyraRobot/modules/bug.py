@@ -8,13 +8,13 @@ from pyrogram.types import (
     Message,
 )
 
-from FallenRobot import pbot as Client
-from FallenRobot import (
+from AyraRobot import pbot as Client
+from AyraRobot import (
     OWNER_ID as owner_id,
     OWNER_USERNAME as owner_usn,
     SUPPORT_CHAT as log,
 )
-from FallenRobot.utils.errors import capture_err
+from AyraRobot.utils.errors import capture_err
 
 
 def content(msg: Message) -> [None, str]:
@@ -129,7 +129,7 @@ async def close_send_photo(_, CallbackQuery):
 
     
 __help__ = """
-*ғᴏʀ ʀᴇᴩᴏʀᴛɪɴɢ ᴀ ʙᴜɢ ɪɴ ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ*
+*ғᴏʀ ʀᴇᴩᴏʀᴛɪɴɢ ᴀ ʙᴜɢ ɪɴ ᴀʏʀᴀ ✘ ʀᴏʙᴏᴛ*
  ❍ /bug *:* ᴛᴏ ʀᴇᴩᴏʀᴛ ᴀ ʙᴜɢ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.
 """
 __mod_name__ = "Bᴜɢ"
