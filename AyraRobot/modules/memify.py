@@ -4,9 +4,9 @@ import textwrap
 
 import os
 
-from FallenRobot.events import register
+from AyraRobot.events import register
 
-from FallenRobot import (
+from AyraRobot import (
 
     LOGGER,
 
@@ -16,7 +16,7 @@ from FallenRobot import (
 
 
 
-from FallenRobot import telethn as bot
+from AyraRobot import telethn as bot
 
 
 Credit = "AnonymousBoy1025" 
