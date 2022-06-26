@@ -1,6 +1,6 @@
-from FallenRobot import dispatcher
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.alternate import typing_action
+from AyraRobot import dispatcher
+from AyraRobot.modules.disable import DisableAbleCommandHandler
+from AyraRobot.modules.helper_funcs.alternate import typing_action
 from telegram import ParseMode
 from telegram.ext import run_async
 
