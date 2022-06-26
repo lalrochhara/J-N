@@ -1,6 +1,6 @@
-from FallenRobot import telethn as tbot
+from AyraRobot import telethn as tbot
 import os
-from FallenRobot.events import register
+from AyraRobot.events import register
 import secureme
 
 @register(pattern="^/encrypt ?(.*)")
