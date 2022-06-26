@@ -1,6 +1,6 @@
-from FallenRobot.modules.helper_funcs.chat_status import user_admin
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot import dispatcher
+from AyraRobot.modules.helper_funcs.chat_status import user_admin
+from AyraRobot.modules.disable import DisableAbleCommandHandler
+from AyraRobot import dispatcher
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import ParseMode, Update
