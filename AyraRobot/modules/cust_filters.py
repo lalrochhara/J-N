@@ -15,25 +15,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from FallenRobot import dispatcher, LOGGER, DRAGONS
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from FallenRobot.modules.helper_funcs.chat_status import user_admin
-from FallenRobot.modules.helper_funcs.extraction import extract_text
-from FallenRobot.modules.helper_funcs.filters import CustomFilters
-from FallenRobot.modules.helper_funcs.misc import build_keyboard_parser
-from FallenRobot.modules.helper_funcs.msg_types import get_filter_type
-from FallenRobot.modules.helper_funcs.string_handling import (
+from AyraRobot import dispatcher, LOGGER, DRAGONS
+from AyraRobot.modules.disable import DisableAbleCommandHandler
+from AyraRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from AyraRobot.modules.helper_funcs.chat_status import user_admin
+from AyraRobot.modules.helper_funcs.extraction import extract_text
+from AyraRobot.modules.helper_funcs.filters import CustomFilters
+from AyraRobot.modules.helper_funcs.misc import build_keyboard_parser
+from AyraRobot.modules.helper_funcs.msg_types import get_filter_type
+from AyraRobot.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from FallenRobot.modules.sql import cust_filters_sql as sql
+from AyraRobot.modules.sql import cust_filters_sql as sql
 
-from FallenRobot.modules.connection import connected
+from AyraRobot.modules.connection import connected
 
-from FallenRobot.modules.helper_funcs.alternate import send_message, typing_action
+from AyraRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 
