@@ -2,9 +2,9 @@ import importlib
 from typing import Union
 
 from future.utils import string_types
-from FallenRobot import dispatcher
-from FallenRobot.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
-from FallenRobot.modules.helper_funcs.misc import is_module_loaded
+from AyraRobot import dispatcher
+from AyraRobot.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
+from AyraRobot.modules.helper_funcs.misc import is_module_loaded
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,
@@ -20,12 +20,12 @@ FILENAME = __name__.rsplit(".", 1)[-1]
 # If module is due to be loaded, then setup all the magical handlers
 if is_module_loaded(FILENAME):
 
-    from FallenRobot.modules.helper_funcs.chat_status import (
+    from AyraRobot.modules.helper_funcs.chat_status import (
         connection_status,
         is_user_admin,
         user_admin,
     )
-    from FallenRobot.modules.sql import disable_sql as sql
+    from AyraRobot.modules.sql import disable_sql as sql
     from telegram.ext.dispatcher import run_async
 
     DISABLE_CMDS = []
