@@ -5,7 +5,7 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import FallenRobot
+import AyraRobot
 
 from AyraRobot import dispatcher
 from AyraRobot.modules.helper_funcs.chat_status import dev_plus
@@ -18,7 +18,7 @@ from telegram.ext import CallbackContext, CommandHandler, run_async
 def allow_groups(update: Update, context: CallbackContext):
     args = context.args
     if not args:
-        update.effective_message.reply_text(f"Current state: {FallenRobot.ALLOW_CHATS}")
+        update.effective_message.reply_text(f"Current state: {AyraRobot.ALLOW_CHATS}")
         return
     if args[0].lower() in ["off", "no"]:
         AyraRobot.ALLOW_CHATS = True
