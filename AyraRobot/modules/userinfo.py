@@ -13,7 +13,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from FallenRobot import (
+from AyraRobot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -24,15 +24,15 @@ from FallenRobot import (
     dispatcher,
     sw,
 )
-from FallenRobot.__main__ import STATS, TOKEN, USER_INFO
-import FallenRobot.modules.sql.userinfo_sql as sql
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.sql.global_bans_sql import is_user_gbanned
-from FallenRobot.modules.sql.afk_sql import is_afk, check_afk_status
-from FallenRobot.modules.sql.users_sql import get_user_num_chats
-from FallenRobot.modules.helper_funcs.chat_status import sudo_plus
-from FallenRobot.modules.helper_funcs.extraction import extract_user
-from FallenRobot import telethn as FallenTelethonClient, TIGERS, DRAGONS, DEMONS
+from AyraRobot.__main__ import STATS, TOKEN, USER_INFO
+import AyraRobot.modules.sql.userinfo_sql as sql
+from AyraRobot.modules.disable import DisableAbleCommandHandler
+from AyraRobot.modules.sql.global_bans_sql import is_user_gbanned
+from AyraRobot.modules.sql.afk_sql import is_afk, check_afk_status
+from AyraRobot.modules.sql.users_sql import get_user_num_chats
+from AyraRobot.modules.helper_funcs.chat_status import sudo_plus
+from AyraRobot.modules.helper_funcs.extraction import extract_user
+from AyraRobot import telethn as FallenTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):
