@@ -3,14 +3,14 @@ from io import BytesIO
 import random
 from typing import Optional
 
-import FallenRobot.modules.sql.notes_sql as sql
-from FallenRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, connection_status
-from FallenRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from FallenRobot.modules.helper_funcs.msg_types import get_note_type
-from FallenRobot.modules.helper_funcs.string_handling import (
+import AyraRobot.modules.sql.notes_sql as sql
+from AyraRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from AyraRobot.modules.disable import DisableAbleCommandHandler
+from AyraRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from AyraRobot.modules.helper_funcs.chat_status import user_admin, connection_status
+from AyraRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from AyraRobot.modules.helper_funcs.msg_types import get_note_type
+from AyraRobot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (
