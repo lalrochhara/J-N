@@ -1,15 +1,15 @@
-from FallenRobot import telethn as tbot
-from FallenRobot.events import register
+from AyraRobot import telethn as tbot
+from AyraRobot.events import register
 import os
 import asyncio
 import os
 import time
 from datetime import datetime
-from FallenRobot import OWNER_ID
-from FallenRobot import TEMP_DOWNLOAD_DIRECTORY as path
-from FallenRobot import TEMP_DOWNLOAD_DIRECTORY
+from AyraRobot import OWNER_ID
+from AyraRobot import TEMP_DOWNLOAD_DIRECTORY as path
+from AyraRobot import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './FallenRobot/resources/fallen.jpg'
+water = './AyraRobot/resources/fallen.jpg'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")
@@ -36,7 +36,7 @@ async def Prof(event):
         await event.reply("No File Found!")
 
 
-from FallenRobot.events import load_module
+from AyraRobot.events import load_module
 import asyncio
 import os
 from datetime import datetime
@@ -55,7 +55,7 @@ async def install(event):
             downloaded_file_name = (
                 await event.client.download_media(  # pylint:disable=E0602
                     await event.get_reply_message(),
-                    "FallenRobot/modules/",  # pylint:disable=E0602
+                    "AyraRobot/modules/",  # pylint:disable=E0602
                 )
             )
             if "(" not in downloaded_file_name:
@@ -80,15 +80,15 @@ async def install(event):
     await asyncio.sleep(3)
     await event.delete()
 
-from FallenRobot import telethn as tbot, OWNER_ID, DEV_USERS
-from FallenRobot.events import register
+from AyraRobot import telethn as tbot, OWNER_ID, DEV_USERS
+from AyraRobot.events import register
 import os
 import asyncio
 import os
 import time
 from datetime import datetime
-from FallenRobot import TEMP_DOWNLOAD_DIRECTORY as path
-from FallenRobot import TEMP_DOWNLOAD_DIRECTORY
+from AyraRobot import TEMP_DOWNLOAD_DIRECTORY as path
+from AyraRobot import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
 import asyncio
 import os
@@ -128,7 +128,7 @@ client = tbot
 import time
 from io import BytesIO
 from pathlib import Path
-from FallenRobot import telethn as borg
+from AyraRobot import telethn as borg
 from telethon import functions, types
 from telethon.errors import PhotoInvalidDimensionsError
 from telethon.errors.rpcerrorlist import YouBlockedUserError
