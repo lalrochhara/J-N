@@ -11,9 +11,9 @@ from io import BytesIO
 from requests import get
 from telethon.tl.types import InputMessagesFilterPhotos
 
-from FallenRobot import OWNER_ID
-from FallenRobot.events import register
-from FallenRobot import telethn
+from AyraRobot import OWNER_ID
+from AyraRobot.events import register
+from AyraRobot import telethn
 from PIL import Image, ImageDraw, ImageFont
 
 
@@ -252,7 +252,7 @@ LOGO_LINKS            = ["https://telegra.ph/file/d1838efdafce9fe611d0c.jpg",
 async def lego(event):
  quew = event.pattern_match.group(1)
  if event.sender_id != OWNER_ID and not quew:
-  await event.reply('`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙʏ​ !`\n`Example /logo <ANONYMOUS>`')
+  await event.reply('`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙʏ​ !`\n`Example /logo <BANNA>`')
   return
  pesan = await event.reply('**ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏɢᴏ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ sᴇᴄ​...**')
  try:
@@ -264,7 +264,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "black"
     shadowcolor = "blue"
-    fnt = glob.glob("./FallenRobot/resources/fonts/*")
+    fnt = glob.glob("./AyraRobot/resources/fonts/*")
     randf = random.choice(fnt)
     font = ImageFont.truetype(randf, 120)
     w, h = draw.textsize(text, font=font)
@@ -276,18 +276,18 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
     fname = "fallen.png"
     img.save(fname, "png")
-    await telethn.send_file(event.chat_id, file=fname, caption = f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ")         
+    await telethn.send_file(event.chat_id, file=fname, caption = f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴀʏʀᴀ ✘ ʀᴏʙᴏᴛ")         
     await pesan.delete()
     if os.path.exists(fname):
             os.remove(fname)
  except Exception as e:
-    await event.reply(f'ғʟᴏᴏᴅᴡᴀɪᴛ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ @DevilsHeavenMF')
+    await event.reply(f'ғʟᴏᴏᴅᴡᴀɪᴛ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ @CrazyWorldChatting')
 
 
 __mod_name__ = "Lᴏɢᴏ​"
 
 __help__ = """
-Fallen Robot can create some beautiful and attractive logo for your profile pics.
+Ayra Robot can create some beautiful and attractive logo for your profile pics.
 
 ❍ /logo (Text) *:* Create a logo of your given text with random view.
 """
