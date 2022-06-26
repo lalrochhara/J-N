@@ -1,8 +1,8 @@
 import os
 import cv2
 from PIL import Image
-from FallenRobot.events import register
-from FallenRobot import telethn as tbot
+from AyraRobot.events import register
+from AyraRobot import telethn as tbot
 
 
 @register(pattern="^/tiny ?(.*)")
@@ -13,7 +13,7 @@ async def _(event):
            return
     kontol = await event.reply("`Processing tiny...`")
     ik = await tbot.download_media(reply)
-    im1 = Image.open("FallenRobot/resources/blank_background.png")
+    im1 = Image.open("AyraRobot/resources/blank_background.png")
     if ik.endswith(".tgs"):
         await tbot.download_media(reply, "blank_background.tgs")
         os.system("lottie_convert.py blank_background.tgs json.json")
