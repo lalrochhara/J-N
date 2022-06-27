@@ -1,4 +1,4 @@
-name: Lets Start AaruRobot
+name: Lets Start AyraRobot
 on: push
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
       - name: Pull All Updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'AaruRobot'
+          commit_message: 'AyraRobot'
           commit_options: '--no-verify'
           repository: .
           commit_user_name: BANNA-XD143
