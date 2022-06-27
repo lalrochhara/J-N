@@ -11,8 +11,8 @@ from AyraRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://telegra.ph/file/395d6af16f462c011b19b.jpg",
-    "https://telegra.ph/file/a494bc31733addc47252d.jpg",
+    "https://telegra.ph/file/4ff05c6d9c1b614159eb3.jpg",
+    "https://telegra.ph/file/768080013f184b3fc0993.jpg",
 ]
 
 @register(pattern=("/alive"))
