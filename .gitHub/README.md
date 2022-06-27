@@ -10,7 +10,7 @@
 </p>
 ━━━━━━━━━━━━━━━━━━━━━━
 <p align="center">
-  <img src="https://telegra.ph//file/e4bff82ab3fbc72818adc.jpg">
+  <img src="https://telegra.ph/file/395d6af16f462c011b19b.jpg">
 </p>
 
 ##ㅤ🖤 𝔸𝕒ℝ𝕦🇽 ℝ𝕠𝔹𝕠𝕋 🖤
@@ -19,7 +19,7 @@
 ━━━━━━━━━━━━━━━━━━━━━━
 ## ㅤㅤㅤᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ​ 🚀
 ㅤㅤㅤᴛʜᴇ ᴇᴀsɪᴇsᴛ ᴡᴀʏ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴀᴀʀᴜ ʀᴏʙᴏᴛ​
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/BANNA-XD143/AARUROBOT"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/MISS-AYRA/AyraRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
  ━━━━━━━━━━━━━━━━━━━━━━
 
 ### ㅤㅤㅤㅤCREDITS 😘
