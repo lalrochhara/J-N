@@ -182,7 +182,7 @@ def load_module(shortname):
         pass
     elif shortname.endswith("_"):
         import importlib
-        import FallenRobot.events
+        import AyraRobot.events
 
         path = Path(f"AyraRobot/modules/{shortname}.py")
         name = "AyraRobot.modules.{}".format(shortname)
