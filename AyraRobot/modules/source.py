@@ -27,9 +27,11 @@ async def repo(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "• ᴏᴡɴᴇʀ •", url="tg://user?id=5230222509"), 
+                        "• ᴅᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/COVIDBABA"), 
                     InlineKeyboardButton(
-                        "• sᴏᴜʀᴄᴇ •", url="https://github.com/MISS-AYRA/AyraRobot")
+                        "• sᴏᴜʀᴄᴇ •", url="https://github.com/MISS-AYRA/AyraRobot"),
+                    InlineKeyboardButton(
+                        "• ʙʜᴀɪ •", url="https://t.me/BANNA_XD")
                 ]
             ]
         )
