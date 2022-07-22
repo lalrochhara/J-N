@@ -523,10 +523,10 @@ __help__ = """
 
 *Self added information:* 
  ❍ /setme <text>*:* will set your info
- ❍ /me*:* will get your or another user's info.
+ ❍ /covid*:* will get your or another user's info.
 *Examples:* 💡
  ➩ /setme I am a wolf.
- ➩ /me @username(defaults to yours if no user specified)
+ ➩ /covid @username(defaults to yours if no user specified)
 
 *Information others add on you:* 
  ❍ /bio*:* will get your or another user's bio. This cannot be set by yourself.
