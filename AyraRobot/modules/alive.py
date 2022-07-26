@@ -11,18 +11,18 @@ from AyraRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://telegra.ph/file/4ff05c6d9c1b614159eb3.jpg",
-    "https://telegra.ph/file/768080013f184b3fc0993.jpg",
+    "https://telegra.ph/file/5dfdcf245d5c12615a14a.jpg",
+    "https://telegra.ph/file/5dfdcf245d5c12615a14a.jpg",
 ]
 
 @register(pattern=("/alive"))
 async def awake(event):
   TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ ᴀʏʀᴀ ✘ ʀᴏʙᴏᴛ​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝗖𝗢𝗩𝗜𝗗𝗕𝗔𝗕𝗔](https://t.me/COVIDBABA)** \n\n"
+  TEXT += f"» **Min siamtu chu : [Nicky Lalrochhara](https://t.me/Nickylrca)** \n\n"
   TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
   TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
   TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/Miss_Ayra_bot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/crazyworldchatting")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/DuatiBot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/DuatiSupports")]]
   ran = random.choice(PHOTO)
   await tbot.send_file(event.chat_id, ran, caption=TEXT,  buttons=BUTTON)
 
