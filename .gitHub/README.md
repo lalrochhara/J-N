@@ -3,7 +3,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/BANNA-XD143/AARUROBOT"> <img src="https://img.shields.io/github/repo-size/BANNA-XD143/AARUROBOT?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/BANNA-XD143/AARUROBOT/commits/prince"> <img src="https://img.shields.io/github/last-commit/BANNA-XD/AARUROBOT?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/lalrochhara/J-N/commits/lalrochhara"> <img src="https://img.shields.io/github/last-commit/lalrochhara/J-N?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/BANNA-XD143/AARUROBOT/issues"> <img src="https://img.shields.io/github/issues/BANNA-XD143/AARUROBOT?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/BANNA-XD143/AARUROBOT/network/members"> <img src="https://img.shields.io/github/forks/BANNA-XD143/AARUROBOT?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
